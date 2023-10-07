@@ -1,4 +1,5 @@
 {
+  "name": "pr-bell",
   "private": true,
   "scripts": {
     "build": "turbo run build",
@@ -7,11 +8,10 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "eslint": "^8.48.0",
+    "eslint": "^8.51.0",
     "prettier": "^3.0.3",
     "tsconfig": "workspace:*",
     "turbo": "latest"
   },
-  "packageManager": "pnpm@8.6.10",
-  "name": "pr-bell"
+  "packageManager": "pnpm@8.6.10"
 }
